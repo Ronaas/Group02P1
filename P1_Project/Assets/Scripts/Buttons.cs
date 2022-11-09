@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class Buttons : MonoBehaviour
 {
-    public void SceneLoad(int index)
+    public void LoadScene(string sceneName)
     {
-        SceneManager.LoadScene(index);
+        SceneManager.LoadScene(sceneName);
     }
 }
 
