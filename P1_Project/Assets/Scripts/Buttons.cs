@@ -3,10 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class Buttons : MonoBehaviour
 {
-    public void LoadScene(string sceneName)
+    public void SceneLoad(int index)
     {
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene(index);
     }
 }
+
+
+
+
+
