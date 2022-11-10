@@ -6,9 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class Buttons : MonoBehaviour
 {
-  public void LoadScene(string sceneName)
+  public void SceneDelay()
+  {
+    Invoke("LoadScene", 1f);
+  }
+
+  public void LoadScene()
     {
-      SceneManager.LoadScene(sceneName);
+      SceneManager.LoadScene(2);
     }
 } 
 
