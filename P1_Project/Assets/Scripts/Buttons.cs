@@ -9,16 +9,17 @@ public class Buttons : MonoBehaviour
     {
       SceneManager.LoadScene(sceneName);
     }
-}
-
-
-IEnumerator DelayedSceneChange(float delay, string sceneName)
-{
-    yield return new WaitForSecondsRealtime(delay);
-    LoadScene(sceneName);
+    IEnumerator DelayedSceneChange(float delay, string sceneName)
+    {
+      yield return new WaitForSecondsRealtime(delay);
+      LoadScene(sceneName);
     
-    StartCoroutine(DelayedSceneChange(20f, sceneName));
+      StartCoroutine(DelayedSceneChange(20f, sceneName));
+    }
 }
+
+
+
 
 
 
