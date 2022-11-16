@@ -13,7 +13,7 @@ public class Buttons : MonoBehaviour
 
   public void LoadScene()
     {
-      SceneManager.LoadScene(2);
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 } 
 
