@@ -80,4 +80,40 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Q12 S2.unity
     guid: 13d04f1d9d2173f4c8787c20d5321748
+  - enabled: 1
+    path: Assets/Scenes/Q1 S3.unity
+    guid: 24e434c22ca5a144c9e9b6263ad35319
+  - enabled: 1
+    path: Assets/Scenes/Q2 S3.unity
+    guid: b760ce18badbb7c4b9a606594eb21fd3
+  - enabled: 1
+    path: Assets/Scenes/Q3 S3.unity
+    guid: 63c320995806e4e4da31b5cf05499cd6
+  - enabled: 1
+    path: Assets/Scenes/Q4 S3.unity
+    guid: aa0cf076abc04114086a392632660217
+  - enabled: 1
+    path: Assets/Scenes/Q5 S3.unity
+    guid: 1a034a6bbbc97e24983678aec84f1670
+  - enabled: 1
+    path: Assets/Scenes/Q6 S3.unity
+    guid: 9c37ce12c6c253d4f9dd1c5cd21e245d
+  - enabled: 1
+    path: Assets/Scenes/Q7 S3.unity
+    guid: 9e104e13c176bcf41a6d1ed06160de86
+  - enabled: 1
+    path: Assets/Scenes/Q8 S3.unity
+    guid: 64773ab37a8857d4e92f8075e6f510c3
+  - enabled: 1
+    path: Assets/Scenes/Q9 S3.unity
+    guid: 4cf264a890029bf44a11068c9dc17e80
+  - enabled: 1
+    path: Assets/Scenes/Q10 S3.unity
+    guid: 01d89f52ce133d24f8684502ed58b423
+  - enabled: 1
+    path: Assets/Scenes/Q11 S3.unity
+    guid: 7cd82a1903cf61c4a81c14db5570513c
+  - enabled: 1
+    path: Assets/Scenes/Q12 S3.unity
+    guid: 998d7441e1c638b40a9d98432cab5ac0
   m_configObjects: {}
