@@ -116,4 +116,76 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Q12 S3.unity
     guid: 998d7441e1c638b40a9d98432cab5ac0
+  - enabled: 1
+    path: Assets/Scenes/Q1 S4.unity
+    guid: 4341dcef31f03c143b0840bacc634dca
+  - enabled: 1
+    path: Assets/Scenes/Q2 S4.unity
+    guid: 7c9f9d13cad92184784d4ef6d6f213a3
+  - enabled: 1
+    path: Assets/Scenes/Q3 S4.unity
+    guid: 77fda86edc3ccb04cba059ff07167977
+  - enabled: 1
+    path: Assets/Scenes/Q4 S4.unity
+    guid: 54b4d424411b86046aa1caf77156ed00
+  - enabled: 1
+    path: Assets/Scenes/Q5 S4.unity
+    guid: 3c9b9b8aabb628d40aa40e16a5c892e8
+  - enabled: 1
+    path: Assets/Scenes/Q6 S4.unity
+    guid: e858ae86df31f924995a5b7d707f928b
+  - enabled: 1
+    path: Assets/Scenes/Q7 S4.unity
+    guid: 3f85c2b7aaf4d2740aae124a474a08e4
+  - enabled: 1
+    path: Assets/Scenes/Q8 S4.unity
+    guid: fdefae8dbdf65e34da435fe8c0192930
+  - enabled: 1
+    path: Assets/Scenes/Q9 S4.unity
+    guid: 81f49fb8c6c120e4f946d6ef71b05ada
+  - enabled: 1
+    path: Assets/Scenes/Q10 S4.unity
+    guid: bed29c7e43a4c3d4b91d0c17900a49ee
+  - enabled: 1
+    path: Assets/Scenes/Q11 S4.unity
+    guid: 4d4d6b9e9e47df846a29b8128cbb5d10
+  - enabled: 1
+    path: Assets/Scenes/Q12 S4.unity
+    guid: 5ae6596e7d040bf4b939ca233e6357e9
+  - enabled: 1
+    path: Assets/Scenes/Q1 S5.unity
+    guid: 86d7c2a783538244c91b617045cc2b63
+  - enabled: 1
+    path: Assets/Scenes/Q2 S5.unity
+    guid: 3e59024d11b53a646b661540360f7fe6
+  - enabled: 1
+    path: Assets/Scenes/Q3 S5.unity
+    guid: 74da97e094514b54ab88d7442cc8bf8c
+  - enabled: 1
+    path: Assets/Scenes/Q4 S5.unity
+    guid: 4da87546935f0a542a3ded041a1b3958
+  - enabled: 1
+    path: Assets/Scenes/Q5 S5.unity
+    guid: e55b963a2530ab94982790af21bb6374
+  - enabled: 1
+    path: Assets/Scenes/Q6 S5.unity
+    guid: a7da13817fea6614c869c42cd3d34e4d
+  - enabled: 1
+    path: Assets/Scenes/Q7 S5.unity
+    guid: 527d6b21acbe872449415e116dcdeec9
+  - enabled: 1
+    path: Assets/Scenes/Q8 S5.unity
+    guid: cf0380a7aa181504694932ef7cb85656
+  - enabled: 1
+    path: Assets/Scenes/Q9 S5.unity
+    guid: 1197e04d4ec6f7747a4d2dda3522b4db
+  - enabled: 1
+    path: Assets/Scenes/Q10 S5.unity
+    guid: 9c9607fb49925a94a8fdb169476c6e59
+  - enabled: 1
+    path: Assets/Scenes/Q11 S5.unity
+    guid: e590161427c0ffe4992cd2828e8ab4d4
+  - enabled: 1
+    path: Assets/Scenes/Q12 S5.unity
+    guid: e76197119276f2142a4bc0c5755ad9e6
   m_configObjects: {}
