@@ -329,4 +329,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Q11 S9.unity
     guid: f870332e3d612fb4194f2bf7e995be34
+  - enabled: 1
+    path: Assets/Scenes/Q12 S9.unity
+    guid: e7383008ce409e44cb234454f6dbf8e3
   m_configObjects: {}
