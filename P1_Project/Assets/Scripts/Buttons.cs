@@ -8,17 +8,15 @@ public class Buttons : MonoBehaviour
     { 
         Invoke("LoadScene", 1f);
     }
-
     public void LoadScene()
     {
-        //Debug.Log(QuestionExpert.instance);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-
+        GlobalInstance.Instance.Count += 1;
     }
 
     private void Start()
     {
-        GlobalInstance.Instance.Count += 1;
+        //GlobalInstance.Instance.Count += 1;
         Debug.Log(GlobalInstance.Instance.Count);
     }
 }
