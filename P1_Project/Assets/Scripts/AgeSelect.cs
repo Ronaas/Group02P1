@@ -7,9 +7,10 @@ public class AgeSelect : MonoBehaviour
 {
     // Q1 S1 is text
     public string scene;
-  
+
     // method that opens a variable string: scene by ToString
-       public void OpenScene()
+
+    public void OpenScene()
         {
             SceneManager.LoadScene(scene.ToString());
         }

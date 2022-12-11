@@ -6,16 +6,20 @@ using UnityEngine;
 public class PlaySound : MonoBehaviour
 {
     private AudioSource _audioSource;
-    public float timeBetweenPlays = 10f;
+    public float timeBetweenPlays = 10f; //der mangler stadig slowdown på tiden.
 
+
+    //[SerializeField]
+    //int questionsNR;
+    //QuestionExpert QuestionSystem;
     // Start is called before the first frame update
     private void Start()
     {
-        // Kalder sounddPlayer hvert timeBetweenPlays sekund (base af 10)
-        InvokeRepeating("sounddPlayer", timeBetweenPlays, timeBetweenPlays);
-
-        // får fat på audiosource, spiller den hvis den kan finde den.
-        _audioSource = GetComponent<AudioSource>();
+       
+        InvokeRepeating("sounddPlayer", timeBetweenPlays, timeBetweenPlays);  // Kalder sounddPlayer hvert timeBetweenPlays sekund (base af 10)
+        _audioSource = GetComponent<AudioSource>(); // får fat på audiosource, spiller den hvis den kan finde den.
+        //QuestionSystem = FindObjectOfType<QuestionExpert>();
+        //questionsNR = QuestionSystem.CurrentQuestions;
     }
 
     private void sounddPlayer()
