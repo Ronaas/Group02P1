@@ -461,7 +461,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -826,6 +825,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 1382897372}
     m_Modifications:
     - target: {fileID: 1191588533530500004, guid: 5791a5fb36eaaaa48a0f466a2d04e4f3, type: 3}
@@ -919,8 +919,9 @@ PrefabInstance:
     - target: {fileID: 1191588533530500011, guid: 5791a5fb36eaaaa48a0f466a2d04e4f3, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: c66767a0595dc3041b0e4decaf5f2f7f, type: 3}
+      objectReference: {fileID: 8300000, guid: 90f77db5fd06e4c4ba83f063a7500501, type: 3}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5791a5fb36eaaaa48a0f466a2d04e4f3, type: 3}
 --- !u!224 &1232816401 stripped
 RectTransform:
@@ -956,6 +957,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdfbd7a52777d45478197b65dc295610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trueAnswer: 0
+  CorrectAnswer: {fileID: 0}
+  WrongAnswer: {fileID: 0}
+  questionResults: {fileID: 0}
 --- !u!4 &1347172696
 Transform:
   m_ObjectHideFlags: 0
@@ -1048,6 +1053,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
