@@ -890,7 +890,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 973f19f66b504ae4fb2ae43b89fdf960, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8557ba0a39aefff4cb80bf97a123314c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -957,9 +957,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdfbd7a52777d45478197b65dc295610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trueAnswer: 0
-  CorrectAnswer: {fileID: 0}
-  WrongAnswer: {fileID: 0}
   questionResults: {fileID: 0}
 --- !u!4 &1347172696
 Transform:

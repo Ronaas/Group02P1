@@ -239,7 +239,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 23fe9ff4a4290aa4aa42c7f7db366e5d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 819f34dcd58d11041b9f351fb171a5e3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -393,7 +393,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 44babebc7a94c1645a228ce798d67e47, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d7859f868d02ba5489b3e1257d85dbe9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -782,7 +782,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bc239522e2df8ae4f88494a410051430, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 883731cb27580674c8f525948f01d519, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -849,9 +849,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdfbd7a52777d45478197b65dc295610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trueAnswer: 0
-  CorrectAnswer: {fileID: 0}
-  WrongAnswer: {fileID: 0}
   questionResults: {fileID: 0}
 --- !u!4 &1347172696
 Transform:
@@ -1198,7 +1195,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 588196fb871dd23469321b512242b5ae, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8d0aba7b6dfd5c44896a8fe930adacae, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
