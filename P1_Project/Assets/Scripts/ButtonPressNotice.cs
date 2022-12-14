@@ -15,9 +15,7 @@ public class ButtonPressNotice : MonoBehaviour
         {
             case "CorrectAnswer":
 
-                //Debug.Log("NR of current question");
-                //results.currentscene += 1;
-                //Debug.Log(results.currentscene);
+
                 Debug.Log("NR of Correct Answers");
                 results.correctAnswers += 1;
                 Debug.Log(results.correctAnswers);
@@ -30,9 +28,7 @@ public class ButtonPressNotice : MonoBehaviour
 
             case "WrongAnswer":
 
-                //Debug.Log("NR of current question");
-                //results.currentscene += 1;
-                //Debug.Log(results.currentscene);
+
 
                 Debug.Log("NR of Wrong answers");
                 results.wrongAnswers += 1;
