@@ -1,65 +1,81 @@
-
-using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.EventSystems;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
-[ExecuteInEditMode]
 
 public class Buttons : MonoBehaviour
 {
-    public List<Button> buttons;
+
+    public bool trueAnswer;
+    public GameObject CorrectAnswer;
+    public GameObject WrongAnswer;
+
+    [SerializeField]
+    public QuestionResults questionResults;
     public void SceneDelay()
     {
         Invoke("LoadScene", 1f);
     }
-    //public bool isSelected = false;
-    //public bool trueAnswer = false;
-    //public GameObject AAnswer;
-    [SerializeField]
-    public QuestionResults results;
-
-    public void NoticeClick()
+    public void LoadScene()
     {
-        string ClickedButtonName = EventSystem.current.currentSelectedGameObject.name;
-        Debug.Log(ClickedButtonName + "was pressed");
+
+        //notice.NoticeClick(someObject);
+        //Debug.Log("Nr of wrong answers");
+        //Debug.Log("Nr of current question");
+        //Debug.Log("Ne of correct answers");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-
-        switch (ClickedButtonName)
-        {
-            case "CorrectAnswer":
-                //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-
-                Debug.Log("NR of current question");
-                results.currentscene += 1;
-                Debug.Log(results.currentscene);
-
-                Debug.Log("NR of current question");
-                results.correctAnswers += 1;
-                Debug.Log(results.CorrectAnswer);
-
-                break;
-
-            case "WrongAnswer":
-                //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-
-                Debug.Log("NR of current question");
-                results.currentscene += 1;
-                Debug.Log(results.currentscene);
-
-                Debug.Log("NR of Wrong answers");
-                results.wrongAnswers += 1;
-                Debug.Log(results.wrongAnswers);
-
-                break;
-           
-        }
-            
-                
-        }
-
     }
+}
+        
+        
+//        if (CorrectAnswer)
+//        {
+//            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+//            questionResults.sceneNR += 1;   
+//            questionResults.correctAnswers += 1;
+            
+//            Debug.Log("NR of current question");
+//            Debug.Log(questionResults.sceneNR);
+
+//            Debug.Log("NR of correct answers");
+//            Debug.Log(questionResults.correctAnswers);
+//        }
+//        if (CorrectAnswer != trueAnswer)
+//        {
+//            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+//            questionResults.sceneNR += 1;
+//            questionResults.wrongAnswers += 1;
+
+//            Debug.Log("NR of current question");
+//            Debug.Log(questionResults.sceneNR);
+
+//            Debug.Log("NR of Wrong answers");
+//            Debug.Log(questionResults.wrongAnswers);
+//        }
+//    }
+//}
+
+
+//[SerializeField] private ButtonPressNotice notice;
+//public ButtonPressNotice  Notice { get { return Notice; } }
+
+
+//public UnityEngine.UI.Button someObject;
+
+////[SerializeField] QuestionExpert expert;
+////[SerializeField] QuestionResults results;
+
+//void Start()
+//{
+//    someObject = gameObject.GetComponent<UnityEngine.UI.Button>();
+//}
+
+////private void Getbuttons()
+////{
+////    someObjects = Buttons.GetComponents<someObjects>();
+////}
+
 
 
 
@@ -145,3 +161,6 @@ public class Buttons : MonoBehaviour
 //{
 //GlobalInstance.Instance.Count += 1;
 //  Debug.Log(GlobalInstance.Instance.Count);
+
+
+        
